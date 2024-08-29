@@ -1,0 +1,43 @@
+*{
+    color: #fff;
+    background-color: #222;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.banner
+{
+    
+    background-image: url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZ6ND88pZdT9v-gbiVfmMr8vowAHFfr8ujruNpYcF3Wv3LRAZtC9MRPHiYrREQWia2AAG29hUmfPvn73DDFyhcmjDCR0N47ivOvB.jpg?r=965);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width:100%;
+    height:600px;
+
+}
+.posters
+{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:scroll ;
+margin: 3% 1% ;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster
+{
+    margin: 0px 0.5%;
+    border: radius 3px;
+     
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    padding: 1rem 3rem;
+    
+
+}
